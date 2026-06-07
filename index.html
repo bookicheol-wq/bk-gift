@@ -2009,7 +2009,7 @@ function setupPWA(){
   const icon = 'data:image/svg+xml,' + encodeURIComponent(svg);
   const manifest = {
     name:'경조사 관리', short_name:'경조사', lang:'ko',
-    start_url:'/', display:'standalone',
+    start_url:'/bk-gift/', scope:'/bk-gift/', display:'standalone',
     background_color:'#6c5ce7', theme_color:'#6c5ce7',
     icons:[
       {src:icon, sizes:'192x192', type:'image/svg+xml', purpose:'any maskable'},
